@@ -1,8 +1,8 @@
 import React from 'react';
-import Hello from 'react-reuse/Hello';
+import Hello from 'react-reuse/Hello/Hello';
 
 /** Custom message */
-const ExampleHello = () => {
+function ExampleHello() {
     return <Hello message="Nice component guys!" />;
 };
 

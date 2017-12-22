@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** A basic example component description for Hello component */
-const Hello = () => {
+export default function Hello() {
     return (
         <div>
             Hello world
@@ -18,5 +18,3 @@ Hello.propTypes = {
 Hello.defaultProps = {
     message: 'World'
 };
-
-export default Hello;
