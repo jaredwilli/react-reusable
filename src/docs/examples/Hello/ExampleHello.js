@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from 'react-reuse/Hello/Hello';
+import Hello from 'react-reuse/Hello';
 
 /** Custom message */
 function ExampleHello() {
